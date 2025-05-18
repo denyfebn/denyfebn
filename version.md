@@ -1,16 +1,10 @@
-#### Version v1.0
+#### New Version Rules v2.0
 
-`Quarter.Version.NumberUpdateVersion.TypeLanguage`
+`Version.Quarter.MajorUpdate.NumberUpdateVersion`
 
-- NumberUpdateVersion starts at 1 and ends at 999, resets every quarter.
-- Version increases every year.
-
-**TypeLanguage:**
-
-- 1 = JavaScript  
-- 2 = Java  
-- 3 = C++  
-- 4 = Python
+- NumberUpdateVersion starts at 1 and ends at 999. It resets when MajorUpdate resets to 1.
+- MajorUpdate starts at 1 and changes every quarter.
+- Version starts at 0 and increases every year.
 
 **Example:**  
-`2.1.123.4`
+`0.4.1.1`
