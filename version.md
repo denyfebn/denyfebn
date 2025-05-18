@@ -1,10 +1,10 @@
-#### New Version Rules v2.0
+#### Version Rules v2023
 
-`Version.Quarter.MajorUpdate.NumberUpdateVersion`
+`Version.MajorUpdate.NumberUpdateVersion.Quarter`
 
-- NumberUpdateVersion starts at 1 and ends at 999. It resets when MajorUpdate resets to 1.
-- MajorUpdate starts at 1 and changes every quarter.
-- Version starts at 0 and increases every year.
+- Version starts at 0, only increases when MajorUpdate has completed 4 and back to 1.
+- MajorUpdate starts at 1 and ends at 4.
+- NumberUpdateVersion starts at 0001 and ends at 9999. It resets to 1 if MajorUpdate resets to 1.
 
 **Example:**  
-`0.4.1.1`
+`0.1.0001.4`
